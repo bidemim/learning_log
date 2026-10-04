@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Topic
 
 def index(request):
     """The home page of Learning Log."""
